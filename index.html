@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kalp Shah | AI & Machine Learning Engineer | Data Science</title>
+  <meta name="description" content="Portfolio of Kalp Shah — AI & Machine Learning Engineer, Data Science enthusiast, and B.Tech IT student at BVM Engineering College with Honours in Data Science & Analytics." />
+  <meta name="keywords" content="Kalp Shah, Machine Learning Engineer, AI Developer, Data Scientist, SpamShield AI, Heart Disease Prediction, BVM Engineering College" />
+  <meta name="author" content="Kalp Shah" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23050505'/><text x='50%' y='68%' font-size='56' font-weight='900' fill='%23FF2A2A' text-anchor='middle' font-family='sans-serif'>K</text></svg>" />
+
+  <!-- Google Fonts: Oswald (Headings & Watermarks) + Inter (Body) + JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Oswald:wght@500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- Main Stylesheet (Identical design tokens to sreestats.in) -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ==========================================================================
+       Header / Navigation Bar
+       ========================================================================== -->
+  <header class="header-nav" id="navbar">
+    <div class="nav-container">
+      <!-- Brand Logo -->
+      <a href="#home" class="nav-brand font-display">KALP</a>
+
+      <!-- Desktop Nav Items -->
+      <nav class="nav-links">
+        <a href="#home" class="nav-item active">Home</a>
+        <a href="#about" class="nav-item">About</a>
+        <a href="#skills" class="nav-item">Skills</a>
+        <a href="#projects" class="nav-item">Projects</a>
+        <a href="#certifications" class="nav-item">Certifications</a>
+        <a href="#contact" class="nav-item">Contact</a>
+      </nav>
+
+      <!-- Theme Switcher -->
+      <button class="theme-toggle-btn" id="theme-toggle" aria-label="Toggle Dark/Light Mode" title="Toggle Mode">
+        <div class="theme-toggle-thumb">
+          <i class="fa-solid fa-moon" style="font-size: 10px;"></i>
+        </div>
+      </button>
+    </div>
+
+    <!-- Mobile Scroll Bar -->
+    <div class="mobile-nav-bar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       Hero Section (With SreeStats 30vw Giant Watermark & Avatar Cutout)
+       ========================================================================== -->
+  <section class="hero-section" id="home">
+    <!-- Giant Oswald Red Background Watermark -->
+    <div class="hero-watermark-wrapper" aria-hidden="true">
+      <div class="hero-watermark font-display">KALP</div>
+    </div>
+
+    <!-- Center Portrait Cutout (SreeStats Style) -->
+    <div class="hero-avatar-box">
+      <img src="assets/profile-cutout.png" alt="Kalp Shah - AI & Machine Learning Engineer" class="hero-avatar-img" />
+    </div>
+
+    <!-- Bottom Content Overlay -->
+    <div class="hero-content-wrapper">
+      <div class="hero-bottom-row">
+        <!-- Titles & CTA Buttons -->
+        <div class="hero-titles-group">
+          <div class="hero-role-main font-display">ASPIRING TO AI/ML ENGINEER</div>
+          <p class="hero-tagline">
+            Engineering predictive Machine Learning models &amp; intelligent NLP systems.
+          </p>
+
+          <!-- SreeStats Signature Button with sliding red hover fill -->
+          <div class="hero-btn-group">
+            <a href="#projects" class="btn-red-slide">
+              <span class="slide-bg"></span>
+              <span class="btn-label">EXPLORE PROJECTS <i class="fa-solid fa-arrow-right" style="font-size: 11px;"></i></span>
+            </a>
+            <a href="#contact" class="btn-red-slide">
+              <span class="slide-bg"></span>
+              <span class="btn-label">CONTACT ME</span>
+            </a>
+            <a href="assets/resume.pdf" target="_blank" download="Kalp_Shah_Resume.pdf" class="btn-red-slide" title="Download Kalp Shah CV">
+              <span class="slide-bg"></span>
+              <span class="btn-label"><i class="fa-solid fa-file-pdf"></i> RESUME</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Right Side Social Column -->
+        <div class="hero-socials-col">
+          <a href="https://github.com/K1905-cpu" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="GitHub">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/kalp-shah-3024ab333/" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="LinkedIn">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+          <a href="mailto:shahkalp0303@gmail.com" class="social-icon-btn" title="Email Kalp">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       About Section
+       ========================================================================== -->
+  <section class="about-section" id="about">
+    <div class="about-grid">
+      <!-- Left Visual / Watermark & Cutout Portrait (SreeStats Style) -->
+      <div class="about-left-visual">
+        <div class="about-watermark">
+          <h2 class="text-outline-red font-display">ABOUT</h2>
+        </div>
+        <div class="about-img-box">
+          <img src="assets/profile-cutout.png" alt="Kalp Shah - Aspiring AI & ML Developer" class="about-portrait-img" />
+        </div>
+      </div>
+
+      <!-- Right Content Narrative -->
+      <div class="about-right-content">
+        <div>
+          <span class="section-badge">WHO I AM</span>
+          <h3 class="about-intro-title font-display">PASSIONATE ABOUT DATA SCIENCE &amp; MACHINE LEARNING</h3>
+        </div>
+
+        <p class="about-intro-text">
+          I am an aspiring <strong>AI / Machine Learning Engineer &amp; Data Scientist</strong> pursuing my B.Tech in Information Technology along with an <strong>Honours in Data Science &amp; Analytics</strong> at <strong>Birla Vishvakarma Mahavidyalaya (BVM Engineering College)</strong> (graduating May 2028).
+        </p>
+
+        <p class="about-intro-text">
+          My primary focus is building intelligent Machine Learning models, Natural Language Processing (NLP) classifiers, and clinical prediction pipelines using Python, Scikit-Learn, and statistical analysis tools.
+        </p>
+
+        <!-- What I Do Grid (4 Core ML Cards) -->
+        <div class="what-i-do-grid">
+          <div class="what-i-do-card">
+            <div class="what-i-do-icon-box"><i class="fa-solid fa-brain"></i></div>
+            <div class="what-i-do-text">NLP &amp; Text Classification</div>
+          </div>
+          <div class="what-i-do-card">
+            <div class="what-i-do-icon-box"><i class="fa-solid fa-heart-pulse"></i></div>
+            <div class="what-i-do-text">Predictive Clinical Modeling</div>
+          </div>
+          <div class="what-i-do-card">
+            <div class="what-i-do-icon-box"><i class="fa-solid fa-chart-pie"></i></div>
+            <div class="what-i-do-text">Exploratory Data Analysis (EDA)</div>
+          </div>
+          <div class="what-i-do-card">
+            <div class="what-i-do-icon-box"><i class="fa-solid fa-sliders"></i></div>
+            <div class="what-i-do-text">Feature Engineering &amp; Evaluation</div>
+          </div>
+        </div>
+
+        <!-- 3-Col Stats Counter Bar -->
+        <div class="stats-counter-grid">
+          <div class="stat-metric-card">
+            <div class="stat-val">96.0%</div>
+            <div class="stat-lbl">SpamShield NLP Accuracy</div>
+          </div>
+          <div class="stat-metric-card">
+            <div class="stat-val">88.5%</div>
+            <div class="stat-lbl">Heart Risk Model Accuracy</div>
+          </div>
+          <div class="stat-metric-card">
+            <div class="stat-val">3+</div>
+            <div class="stat-lbl">AI &amp; ML Projects Built</div>
+          </div>
+        </div>
+
+        <!-- Interest Tags / Pills -->
+        <div class="interests-chips">
+          <span class="interest-chip">Machine Learning</span>
+          <span class="interest-chip">Natural Language Processing</span>
+          <span class="interest-chip">Data Science</span>
+          <span class="interest-chip">Python 3</span>
+          <span class="interest-chip">Scikit-Learn</span>
+          <span class="interest-chip">Pandas &amp; NumPy</span>
+          <span class="interest-chip">SQL Analytics</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Skills Section
+       ========================================================================== -->
+  <section class="skills-section" id="skills">
+    <div class="skills-container">
+      <!-- Section Header -->
+      <div style="text-align: center;">
+        <span class="section-badge">TECHNICAL ARSENAL</span>
+        <h2 class="section-title font-display">MY SKILLS</h2>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="skills-layout-grid">
+        <!-- Left Visual Portrait Card (SreeStats Style) -->
+        <div class="skills-left-card card-glow">
+          <img src="assets/profile.jpg" alt="Kalp Shah - AI & Machine Learning Developer" class="skills-portrait-img" />
+          <div class="skills-portrait-overlay">
+            <span class="skills-portrait-badge">// TECHNICAL ARSENAL</span>
+            <h4 class="skills-portrait-name">Kalp Shah</h4>
+          </div>
+        </div>
+
+        <!-- Right 2-Col Grid (4 Skill Boxes) -->
+        <div class="skills-right-cards">
+          <div class="skills-two-col">
+            <!-- Box 1 -->
+            <div class="skill-box-card card-glow">
+              <div class="skill-icon-wrap"><i class="fa-solid fa-brain"></i></div>
+              <h4 class="skill-card-title">Machine Learning & NLP</h4>
+              <ul class="skill-check-list">
+                <li class="skill-check-item">
+                  <i class="fa-solid fa-circle-check check-icon"></i>
+                  <span>Scikit-Learn & Model Pipelines</span>
+                </li>
+                <li class="skill-check-item">
+                  <i class="fa-solid fa-circle-check check-icon"></i>
+                  <span>TF-IDF Vectorization & N-grams</span>
+                </li>
+                <li class="skill-check-item">
+                  <i class="fa-solid fa-circle-check check-icon"></i>
+                  <span>LinearSVC & Logistic Regression</span>
+                </li>
+                <li class="skill-check-item">
+                  <i class="fa-solid fa-circle-check check-icon"></i>
+                  <span>Random Forest & Decision Trees</span>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Box 2 -->
+            <div class="skill-box-card card-glow">
+              <div class="skill-icon-wrap"><i class="fa-solid fa-code"></i></div>
+              <h4 class="skill-card-title">Languages & Data</h4>
+              <ul class="skill-check-list">
+                <li class="skill-check-item">
+                  <i class="fa-solid fa-circle-check check-icon"></i>
+                  <span>Python 3 (OOP & Scripting)</span>
+                </li>
+                <li class="skill-check-item">
+                  <i class="fa-solid fa-circle-check check-icon"></i>
+                  <span>Pandas & NumPy Arrays</span>
+                </li>
+                <li class="skill-check-item">
+                  <i class="fa-solid fa-circle-check check-icon"></i>
+                  <span>SQL & Relational Databases</span>
+                </li>
+                <li class="skill-check-item">
+                  <i class="fa-solid fa-circle-check check-icon"></i>
+                  <span>C++ & Data Structures</span>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Box 3 -->
+            <div class="skill-box-card card-glow">
+              <div class="skill-icon-wrap"><i class="fa-solid fa-server"></i></div>
+              <h4 class="skill-card-title">Frameworks & Cloud</h4>
+              <ul class="skill-check-list">
+                <li class="skill-check-item">
+                  <i class="fa-solid fa-circle-check check-icon"></i>
+                  <span>Flask & RESTful API Design</span>
+                </li>
+                <li class="skill-check-item">
+                  <i class="fa-solid fa-circle-check check-icon"></i>
+                  <span>Git & GitHub Version Control</span>
+                </li>
+                <li class="skill-check-item">
+                  <i class="fa-solid fa-circle-check check-icon"></i>
+                  <span>Vercel Cloud Deployment</span>
+                </li>
+                <li class="skill-check-item">
+                  <i class="fa-solid fa-circle-check check-icon"></i>
+                  <span>Joblib & Model Serialization</span>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Box 4 -->
+            <div class="skill-box-card card-glow">
+              <div class="skill-icon-wrap"><i class="fa-solid fa-chart-line"></i></div>
+              <h4 class="skill-card-title">Analytics & Analytics</h4>
+              <ul class="skill-check-list">
+                <li class="skill-check-item">
+                  <i class="fa-solid fa-circle-check check-icon"></i>
+                  <span>Exploratory Data Analysis (EDA)</span>
+                </li>
+                <li class="skill-check-item">
+                  <i class="fa-solid fa-circle-check check-icon"></i>
+                  <span>Matplotlib & Seaborn Visuals</span>
+                </li>
+                <li class="skill-check-item">
+                  <i class="fa-solid fa-circle-check check-icon"></i>
+                  <span>Prompt Engineering & GenAI</span>
+                </li>
+                <li class="skill-check-item">
+                  <i class="fa-solid fa-circle-check check-icon"></i>
+                  <span>Model Evaluation & Benchmarking</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Projects Section
+       ========================================================================== -->
+  <section class="projects-section" id="projects">
+    <div class="projects-container">
+      <!-- Section Header -->
+      <div style="text-align: center;">
+        <span class="section-badge">FEATURED WORK</span>
+        <h2 class="section-title font-display">SELECTED PROJECTS</h2>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="projects-3-grid">
+        <!-- Project 1: SpamShield AI -->
+        <div class="project-card">
+          <div class="project-img-box">
+            <img src="assets/spamshield.jpg" alt="SpamShield AI — NLP Threat Classifier" class="project-thumb-img" />
+          </div>
+          <div class="project-body">
+            <div>
+              <h3 class="project-title">SpamShield AI — NLP Threat Classifier</h3>
+              <p class="project-desc">
+                Real-time email spam & phishing detector achieving <strong>96.0% accuracy</strong> with sublinear TF-IDF vectorization (2500+ features), LinearSVC, and Explainable AI trigger detection.
+              </p>
+            </div>
+
+            <div>
+              <div class="project-tags">
+                <span class="project-tag-pill">Python</span>
+                <span class="project-tag-pill">NLP</span>
+                <span class="project-tag-pill">TF-IDF</span>
+                <span class="project-tag-pill">LinearSVC</span>
+                <span class="project-tag-pill">Flask</span>
+              </div>
+
+              <div class="project-links-row">
+                <a href="https://email-spam-eight.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-link-btn">
+                  View Project <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 11px;"></i>
+                </a>
+                <a href="https://github.com/K1905-cpu/Email-spam" target="_blank" rel="noopener noreferrer" class="project-link-btn" style="color: var(--accent-red);">
+                  <i class="fa-brands fa-github"></i> GitHub Repo
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2: Heart Disease Risk Prediction -->
+        <div class="project-card">
+          <div class="project-img-box">
+            <img src="assets/heart-prediction.jpg" alt="Heart Disease Risk Prediction System" class="project-thumb-img" />
+          </div>
+          <div class="project-body">
+            <div>
+              <h3 class="project-title">Heart Disease Risk Prediction System</h3>
+              <p class="project-desc">
+                Clinical risk stratification web app powered by Random Forest & Gradient Boosting. Analyzes 13 medical biomarkers to provide instant risk estimates and personalized health insights.
+              </p>
+            </div>
+
+            <div>
+              <div class="project-tags">
+                <span class="project-tag-pill">Machine Learning</span>
+                <span class="project-tag-pill">Random Forest</span>
+                <span class="project-tag-pill">Pandas</span>
+                <span class="project-tag-pill">Healthcare AI</span>
+              </div>
+
+              <div class="project-links-row">
+                <a href="https://heart-disease-prediction-5mwy.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-link-btn">
+                  View Project <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 11px;"></i>
+                </a>
+                <a href="https://github.com/K1905-cpu/Heart-Risk-Prediction" target="_blank" rel="noopener noreferrer" class="project-link-btn" style="color: var(--accent-red);">
+                  <i class="fa-brands fa-github"></i> GitHub Repo
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3: StudyMate AI -->
+        <div class="project-card">
+          <div class="project-img-box">
+            <img src="assets/studymate.jpg" alt="StudyMate AI — Academic Companion" class="project-thumb-img" />
+          </div>
+          <div class="project-body">
+            <div>
+              <h3 class="project-title">StudyMate AI — Academic Companion</h3>
+              <p class="project-desc">
+                Intelligent learning productivity suite offering automated syllabus summarization, dynamic conceptual quiz generation, and personalized study roadmaps.
+              </p>
+            </div>
+
+            <div>
+              <div class="project-tags">
+                <span class="project-tag-pill">Generative AI</span>
+                <span class="project-tag-pill">NLP</span>
+                <span class="project-tag-pill">JavaScript</span>
+                <span class="project-tag-pill">Academic AI</span>
+              </div>
+
+              <div class="project-links-row">
+                <a href="https://studymate-ai-flame.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-link-btn">
+                  View Project <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 11px;"></i>
+                </a>
+                <a href="https://github.com/K1905-cpu" target="_blank" rel="noopener noreferrer" class="project-link-btn" style="color: var(--accent-red);">
+                  <i class="fa-brands fa-github"></i> GitHub Repo
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Certifications Section
+       ========================================================================== -->
+  <section class="cert-section" id="certifications">
+    <div style="max-width: 1280px; width: 100%; margin: 0 auto; display: flex; flex-direction: column; gap: 48px;">
+      <!-- Section Header -->
+      <div style="text-align: center;">
+        <span class="section-badge">ACCREDITATIONS</span>
+        <h2 class="section-title font-display">CERTIFICATIONS</h2>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="cert-grid">
+        <!-- 1. Google AI Essentials -->
+        <div class="cert-card">
+          <div class="cert-img-box cert-trigger-btn" data-cert-title="Google AI Essentials" data-cert-org="Google Career Certificates" data-cert-img="assets/certificates/google-ai-essentials.jpg" data-cert-doc="assets/certificates/google-ai-essentials.pdf" title="Click to View Full Certificate">
+            <img src="assets/certificates/google-ai-essentials.jpg" alt="Google AI Essentials Certificate" class="cert-thumb-img" />
+            <div class="cert-img-overlay">
+              <span class="cert-zoom-btn"><i class="fa-solid fa-expand"></i> View Full Certificate</span>
+            </div>
+          </div>
+          <div class="cert-body">
+            <div>
+              <span class="cert-org-badge">Google</span>
+              <h3 class="cert-name">Google AI Essentials</h3>
+              <p class="cert-desc">
+                Foundational mastery in generative AI tools, prompt design, workplace automation, and ethical AI implementation.
+              </p>
+            </div>
+
+            <div>
+              <div class="cert-tags">
+                <span class="cert-tag-pill">GenAI</span>
+                <span class="cert-tag-pill">Prompt Design</span>
+                <span class="cert-tag-pill">AI Ethics</span>
+                <span class="cert-tag-pill">Google</span>
+              </div>
+
+              <div class="cert-links-row">
+                <button type="button" class="cert-link-btn cert-trigger-btn" data-cert-title="Google AI Essentials" data-cert-org="Google Career Certificates" data-cert-img="assets/certificates/google-ai-essentials.jpg" data-cert-doc="assets/certificates/google-ai-essentials.pdf">
+                  View Certificate <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 11px;"></i>
+                </button>
+                <a href="assets/certificates/google-ai-essentials.pdf" target="_blank" rel="noopener noreferrer" class="cert-link-btn" style="color: var(--accent-red);">
+                  <i class="fa-solid fa-file-pdf"></i> PDF File
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2. Google Prompting Essentials -->
+        <div class="cert-card">
+          <div class="cert-img-box cert-trigger-btn" data-cert-title="Google Prompting Essentials" data-cert-org="Google Career Certificates" data-cert-img="assets/certificates/google-prompting-essentials.jpg" data-cert-doc="assets/certificates/google-prompting-essentials.pdf" title="Click to View Full Certificate">
+            <img src="assets/certificates/google-prompting-essentials.jpg" alt="Google Prompting Essentials Certificate" class="cert-thumb-img" />
+            <div class="cert-img-overlay">
+              <span class="cert-zoom-btn"><i class="fa-solid fa-expand"></i> View Full Certificate</span>
+            </div>
+          </div>
+          <div class="cert-body">
+            <div>
+              <span class="cert-org-badge">Google</span>
+              <h3 class="cert-name">Google Prompting Essentials</h3>
+              <p class="cert-desc">
+                Advanced prompt structuring, context framing, few-shot prompting, and iterative prompt optimization for LLMs.
+              </p>
+            </div>
+
+            <div>
+              <div class="cert-tags">
+                <span class="cert-tag-pill">Prompt Engineering</span>
+                <span class="cert-tag-pill">LLMs</span>
+                <span class="cert-tag-pill">Few-Shot</span>
+                <span class="cert-tag-pill">Google</span>
+              </div>
+
+              <div class="cert-links-row">
+                <button type="button" class="cert-link-btn cert-trigger-btn" data-cert-title="Google Prompting Essentials" data-cert-org="Google Career Certificates" data-cert-img="assets/certificates/google-prompting-essentials.jpg" data-cert-doc="assets/certificates/google-prompting-essentials.pdf">
+                  View Certificate <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 11px;"></i>
+                </button>
+                <a href="assets/certificates/google-prompting-essentials.pdf" target="_blank" rel="noopener noreferrer" class="cert-link-btn" style="color: var(--accent-red);">
+                  <i class="fa-solid fa-file-pdf"></i> PDF File
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3. IBM AI Foundations -->
+        <div class="cert-card">
+          <div class="cert-img-box cert-trigger-btn" data-cert-title="IBM Artificial Intelligence Foundations" data-cert-org="IBM SkillsBuild" data-cert-img="assets/certificates/ibm-ai.jpg" data-cert-doc="assets/certificates/ibm-ai.pdf" title="Click to View Full Certificate">
+            <img src="assets/certificates/ibm-ai.jpg" alt="IBM Artificial Intelligence Foundations Certificate" class="cert-thumb-img" />
+            <div class="cert-img-overlay">
+              <span class="cert-zoom-btn"><i class="fa-solid fa-expand"></i> View Full Certificate</span>
+            </div>
+          </div>
+          <div class="cert-body">
+            <div>
+              <span class="cert-org-badge">IBM</span>
+              <h3 class="cert-name">IBM AI Foundations</h3>
+              <p class="cert-desc">
+                Comprehensive training in core AI principles, supervised learning concepts, neural architectures, and data ethics.
+              </p>
+            </div>
+
+            <div>
+              <div class="cert-tags">
+                <span class="cert-tag-pill">Machine Learning</span>
+                <span class="cert-tag-pill">AI Principles</span>
+                <span class="cert-tag-pill">IBM Skills</span>
+              </div>
+
+              <div class="cert-links-row">
+                <button type="button" class="cert-link-btn cert-trigger-btn" data-cert-title="IBM Artificial Intelligence Foundations" data-cert-org="IBM SkillsBuild" data-cert-img="assets/certificates/ibm-ai.jpg" data-cert-doc="assets/certificates/ibm-ai.pdf">
+                  View Certificate <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 11px;"></i>
+                </button>
+                <a href="assets/certificates/ibm-ai.pdf" target="_blank" rel="noopener noreferrer" class="cert-link-btn" style="color: var(--accent-red);">
+                  <i class="fa-solid fa-file-pdf"></i> PDF File
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4. GitHub Copilot Prompt Engineering -->
+        <div class="cert-card">
+          <div class="cert-img-box cert-trigger-btn" data-cert-title="Prompt Engineering with GitHub Copilot" data-cert-org="Simplilearn / SkillUp" data-cert-img="assets/certificates/github-copilot-prompting.jpg" data-cert-doc="assets/certificates/github-copilot-prompting.pdf" title="Click to View Full Certificate">
+            <img src="assets/certificates/github-copilot-prompting.jpg" alt="Prompt Engineering with GitHub Copilot Certificate" class="cert-thumb-img" />
+            <div class="cert-img-overlay">
+              <span class="cert-zoom-btn"><i class="fa-solid fa-expand"></i> View Full Certificate</span>
+            </div>
+          </div>
+          <div class="cert-body">
+            <div>
+              <span class="cert-org-badge">Simplilearn</span>
+              <h3 class="cert-name">Prompt Engineering with Copilot</h3>
+              <p class="cert-desc">
+                Developer workflow optimization, AI pair-programming patterns, code generation prompts, and test automation.
+              </p>
+            </div>
+
+            <div>
+              <div class="cert-tags">
+                <span class="cert-tag-pill">GitHub Copilot</span>
+                <span class="cert-tag-pill">Code Gen</span>
+                <span class="cert-tag-pill">Simplilearn</span>
+              </div>
+
+              <div class="cert-links-row">
+                <button type="button" class="cert-link-btn cert-trigger-btn" data-cert-title="Prompt Engineering with GitHub Copilot" data-cert-org="Simplilearn / SkillUp" data-cert-img="assets/certificates/github-copilot-prompting.jpg" data-cert-doc="assets/certificates/github-copilot-prompting.pdf">
+                  View Certificate <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 11px;"></i>
+                </button>
+                <a href="assets/certificates/github-copilot-prompting.pdf" target="_blank" rel="noopener noreferrer" class="cert-link-btn" style="color: var(--accent-red);">
+                  <i class="fa-solid fa-file-pdf"></i> PDF File
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5. Cyber Security Fundamentals -->
+        <div class="cert-card">
+          <div class="cert-img-box cert-trigger-btn" data-cert-title="Cyber Security & Threat Intelligence" data-cert-org="Cyber Defense" data-cert-img="assets/certificates/cyber-security.jpg" data-cert-doc="assets/certificates/cyber-security.pdf" title="Click to View Full Certificate">
+            <img src="assets/certificates/cyber-security.jpg" alt="Cyber Security Certificate" class="cert-thumb-img" />
+            <div class="cert-img-overlay">
+              <span class="cert-zoom-btn"><i class="fa-solid fa-expand"></i> View Full Certificate</span>
+            </div>
+          </div>
+          <div class="cert-body">
+            <div>
+              <span class="cert-org-badge">Cyber Defense</span>
+              <h3 class="cert-name">Cyber Security Fundamentals</h3>
+              <p class="cert-desc">
+                Network defense architecture, vulnerability assessment, threat intelligence analysis, and security best practices.
+              </p>
+            </div>
+
+            <div>
+              <div class="cert-tags">
+                <span class="cert-tag-pill">Network Security</span>
+                <span class="cert-tag-pill">Threat Intel</span>
+                <span class="cert-tag-pill">InfoSec</span>
+              </div>
+
+              <div class="cert-links-row">
+                <button type="button" class="cert-link-btn cert-trigger-btn" data-cert-title="Cyber Security & Threat Intelligence" data-cert-org="Cyber Defense" data-cert-img="assets/certificates/cyber-security.jpg" data-cert-doc="assets/certificates/cyber-security.pdf">
+                  View Certificate <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 11px;"></i>
+                </button>
+                <a href="assets/certificates/cyber-security.pdf" target="_blank" rel="noopener noreferrer" class="cert-link-btn" style="color: var(--accent-red);">
+                  <i class="fa-solid fa-file-pdf"></i> PDF File
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 6. Python / Machine Learning Certificate -->
+        <div class="cert-card">
+          <div class="cert-img-box cert-trigger-btn" data-cert-title="Python & Machine Learning Foundations" data-cert-org="Simplilearn" data-cert-img="assets/certificates/certificate-preview.png" data-cert-doc="assets/certificates/certificate-preview.png" title="Click to View Full Certificate">
+            <img src="assets/certificates/certificate-preview.png" alt="Python & Machine Learning Foundations Certificate" class="cert-thumb-img" />
+            <div class="cert-img-overlay">
+              <span class="cert-zoom-btn"><i class="fa-solid fa-expand"></i> View Full Certificate</span>
+            </div>
+          </div>
+          <div class="cert-body">
+            <div>
+              <span class="cert-org-badge">Simplilearn</span>
+              <h3 class="cert-name">Python & ML Foundations</h3>
+              <p class="cert-desc">
+                Core Python programming, data manipulation, algorithm implementations, and predictive modeling fundamentals.
+              </p>
+            </div>
+
+            <div>
+              <div class="cert-tags">
+                <span class="cert-tag-pill">Python 3</span>
+                <span class="cert-tag-pill">Scikit-Learn</span>
+                <span class="cert-tag-pill">Algorithms</span>
+              </div>
+
+              <div class="cert-links-row">
+                <button type="button" class="cert-link-btn cert-trigger-btn" data-cert-title="Python & Machine Learning Foundations" data-cert-org="Simplilearn" data-cert-img="assets/certificates/certificate-preview.png" data-cert-doc="assets/certificates/certificate-preview.png">
+                  View Certificate <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 11px;"></i>
+                </button>
+                <a href="assets/certificates/certificate-preview.png" target="_blank" rel="noopener noreferrer" class="cert-link-btn" style="color: var(--accent-red);">
+                  <i class="fa-solid fa-image"></i> High-Res Image
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Contact Section
+       ========================================================================== -->
+  <section class="contact-section" id="contact">
+    <div class="contact-grid">
+      <!-- Left Column -->
+      <div style="display: flex; flex-direction: column; gap: 24px;">
+        <div class="contact-watermark">
+          <h2 class="text-outline-red font-display">CONTACT</h2>
+        </div>
+
+        <div>
+          <span class="section-badge">GET IN TOUCH</span>
+          <h3 style="font-size: 28px; font-weight: 800; color: #ffffff; margin-bottom: 8px;">Let's Build Something Great</h3>
+          <p style="font-size: 14px; color: var(--text-gray-400); line-height: 1.6;">
+            I am actively seeking AI/ML engineering internships, research collaborations, and opportunities.
+          </p>
+        </div>
+
+        <div class="availability-pill">
+          <div class="pulse-dot-white"></div>
+          <span>Available for AI/ML Roles & Internships</span>
+        </div>
+
+        <!-- 3 Contact Cards: Email, GitHub, LinkedIn -->
+        <div class="contact-cards-row">
+          <a href="mailto:shahkalp0303@gmail.com" class="contact-info-card">
+            <div class="contact-icon-bubble"><i class="fa-solid fa-envelope"></i></div>
+            <div>
+              <div class="contact-lbl-title">Email</div>
+              <div class="contact-lbl-sub">shahkalp0303@gmail.com</div>
+            </div>
+          </a>
+
+          <a href="https://github.com/K1905-cpu" target="_blank" rel="noopener noreferrer" class="contact-info-card">
+            <div class="contact-icon-bubble"><i class="fa-brands fa-github"></i></div>
+            <div>
+              <div class="contact-lbl-title">GitHub</div>
+              <div class="contact-lbl-sub">K1905-cpu</div>
+            </div>
+          </a>
+
+          <a href="https://www.linkedin.com/in/kalp-shah-3024ab333/" target="_blank" rel="noopener noreferrer" class="contact-info-card">
+            <div class="contact-icon-bubble"><i class="fa-brands fa-linkedin-in"></i></div>
+            <div>
+              <div class="contact-lbl-title">LinkedIn</div>
+              <div class="contact-lbl-sub">kalp-shah-3024ab333</div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <!-- Right Contact Form -->
+      <div class="contact-form-card">
+        <form id="contact-form">
+          <div class="form-field">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" id="name" class="form-input" placeholder="Your Name" required />
+          </div>
+
+          <div class="form-field">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" id="email" class="form-input" placeholder="your.email@example.com" required />
+          </div>
+
+          <div class="form-field">
+            <label for="subject" class="form-label">Subject</label>
+            <input type="text" id="subject" class="form-input" placeholder="AI/ML Opportunity / Collaboration" required />
+          </div>
+
+          <div class="form-field">
+            <label for="message" class="form-label">Message</label>
+            <textarea id="message" class="form-textarea" placeholder="Write your message here..." required></textarea>
+          </div>
+
+          <button type="submit" class="btn-submit-contact" id="submit-btn">
+            <span>Send Message</span>
+            <i class="fa-solid fa-paper-plane" style="font-size: 11px;"></i>
+          </button>
+
+          <div id="form-status" style="display: none; margin-top: 12px; font-size: 12.5px; text-align: center; color: #4ade80;"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Footer
+       ========================================================================== -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p class="footer-copy">
+        Copyright © 2026 <strong>Kalp Shah</strong>. All Rights Reserved.
+      </p>
+      <div class="footer-social-links">
+        <a href="https://github.com/K1905-cpu" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <span>•</span>
+        <a href="https://www.linkedin.com/in/kalp-shah-3024ab333/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <span>•</span>
+        <a href="mailto:shahkalp0303@gmail.com">Email</a>
+        <span>•</span>
+        <a href="assets/resume.pdf" target="_blank">Resume PDF</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       Floating AI Assistant Chatbot Widget (SreeStats Style)
+       ========================================================================== -->
+  <div class="ai-chatbot-container">
+    <!-- Chat Toggle Button -->
+    <button id="chat-toggle" class="chat-toggle-btn" aria-label="Open Kalp AI Assistant" title="Chat with Kalp AI">
+      <div class="chat-icon-wrap">
+        <i class="fa-solid fa-brain chat-icon-main"></i>
+        <i class="fa-solid fa-xmark chat-icon-close"></i>
+      </div>
+      <span class="chat-toggle-pulse"></span>
+    </button>
+
+    <!-- Chat Window Container -->
+    <div id="chat-widget" class="chat-widget-box" aria-hidden="true">
+      <!-- Chat Header -->
+      <div class="chat-header">
+        <div class="chat-avatar" style="overflow: hidden; padding: 0;">
+          <img src="assets/profile.jpg" alt="Kalp Shah" style="width: 100%; height: 100%; object-fit: cover;" />
+        </div>
+        <div class="chat-header-info">
+          <h4 class="chat-name">Kalp AI Assistant</h4>
+          <span class="chat-status"><span class="chat-online-dot"></span> Online | Instant Answers</span>
+        </div>
+        <button id="chat-minimize" class="chat-header-btn" aria-label="Minimize Chat">
+          <i class="fa-solid fa-minus"></i>
+        </button>
+      </div>
+
+      <!-- Chat Message Log -->
+      <div class="chat-messages" id="chat-messages">
+        <div class="chat-msg bot-msg">
+          <div class="msg-bubble">
+            👋 Hi there! I'm <strong>Kalp's AI Assistant</strong>. Ask me anything about Kalp's machine learning projects, skills, education at BVM, or how to get in touch!
+          </div>
+          <span class="msg-time">Just now</span>
+        </div>
+      </div>
+
+      <!-- Quick Query Chips -->
+      <div class="chat-quick-chips" id="quick-chips">
+        <button class="chip-btn" data-query="Tell me about Kalp">👤 About Kalp</button>
+        <button class="chip-btn" data-query="Show me Kalp's projects">🚀 Projects</button>
+        <button class="chip-btn" data-query="What are Kalp's technical skills?">⚡ Skills</button>
+        <button class="chip-btn" data-query="How can I contact Kalp?">📬 Contact</button>
+      </div>
+
+      <!-- Chat Input Area -->
+      <form id="chat-form" class="chat-input-row">
+        <input type="text" id="chat-input" class="chat-input" placeholder="Ask about Kalp Shah..." autocomplete="off" />
+        <button type="submit" class="chat-send-btn" aria-label="Send Message">
+          <i class="fa-solid fa-paper-plane"></i>
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       Certificate Full View Modal (Lightbox)
+       ========================================================================== -->
+  <div id="cert-modal" class="cert-modal-backdrop" aria-hidden="true" role="dialog" aria-labelledby="modal-cert-title">
+    <div class="cert-modal-content">
+      <!-- Modal Header -->
+      <div class="cert-modal-header">
+        <div class="cert-modal-title-wrap">
+          <span class="cert-modal-org-badge" id="modal-cert-org">Organization</span>
+          <h3 class="cert-modal-title" id="modal-cert-title">Certificate Name</h3>
+        </div>
+        <button type="button" class="cert-modal-close" id="cert-modal-close-btn" aria-label="Close Preview">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+
+      <!-- Modal Image View Box -->
+      <div class="cert-modal-body">
+        <img id="modal-cert-img" src="" alt="Full Certificate Preview" class="cert-modal-full-img" />
+      </div>
+
+      <!-- Modal Footer Action Bar -->
+      <div class="cert-modal-footer">
+        <a id="modal-cert-download-link" href="#" target="_blank" rel="noopener noreferrer" class="cert-modal-btn cert-modal-primary-btn">
+          <i class="fa-solid fa-arrow-up-right-from-square"></i> Open Full Document / PDF
+        </a>
+        <button type="button" class="cert-modal-btn cert-modal-secondary-btn" id="cert-modal-dismiss-btn">
+          Close Preview
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript Controllers -->
+  <script src="chatbot.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
