@@ -127,10 +127,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // 4. Skills & Tech Stack
     if (/skill|tech|python|stack|language|framework|tools/i.test(text)) {
-      return `Kalp's technical arsenal includes:<br>
-        • <strong>Machine Learning & NLP:</strong> Scikit-Learn, TF-IDF Vectorization, LinearSVC, Logistic Regression, Random Forest.<br>
-        • <strong>Data Science & Analytics:</strong> Pandas, NumPy, Matplotlib, Seaborn, Exploratory Data Analysis (EDA).<br>
-        • <strong>Languages & Tools:</strong> Python 3, SQL, C++, Flask, Git, GitHub.`;
+      return `Kalp's technical skillset includes:<br>
+        • <strong>Machine Learning &amp; NLP:</strong> Machine Learning, Scikit-Learn, TF-IDF Vectorization, NLP.<br>
+        • <strong>Languages:</strong> Python, C++, C, JavaScript, Data Structures &amp; Algorithms (DSA).<br>
+        • <strong>Data Science &amp; Analytics:</strong> Pandas, NumPy, Data Visualization (Matplotlib), EDA, MySQL.<br>
+        • <strong>Tools &amp; Deployment:</strong> Git, GitHub, Vercel, HTML5, CSS3, VS Code, Jupyter.`;
     }
 
     // 5. Education & College
