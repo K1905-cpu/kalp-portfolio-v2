@@ -71,8 +71,8 @@
     </div>
 
     <!-- Center Portrait Cutout (SreeStats Style) -->
-    <div class="hero-avatar-box">
-      <img src="assets/profile-cutout.png" alt="Kalp Shah - AI & Machine Learning Engineer" class="hero-avatar-img" />
+    <div class="hero-avatar-box" id="hero-avatar-box">
+      <img src="assets/profile-cutout.png" alt="Kalp Shah - AI & Machine Learning Engineer" class="hero-avatar-img" id="hero-avatar-img" />
     </div>
 
     <!-- Bottom Content Overlay -->
@@ -124,12 +124,12 @@
   <section class="about-section" id="about">
     <div class="about-grid">
       <!-- Left Visual / Watermark & Cutout Portrait (SreeStats Style) -->
-      <div class="about-left-visual">
+      <div class="about-left-visual" id="about-left-visual">
         <div class="about-watermark">
           <h2 class="text-outline-red font-display">ABOUT</h2>
         </div>
-        <div class="about-img-box">
-          <img src="assets/profile-cutout.png" alt="Kalp Shah - Aspiring AI & ML Developer" class="about-portrait-img" />
+        <div class="about-img-box" id="about-img-box">
+          <img src="assets/profile-cutout.png" alt="Kalp Shah - Aspiring AI & ML Developer" class="about-portrait-img" id="about-avatar-img" />
         </div>
       </div>
 
@@ -201,124 +201,169 @@
   <!-- ==========================================================================
        Skills Section
        ========================================================================== -->
+  <!-- ==========================================================================
+       Skills Section (Creative Developer Portfolio Style — No Static Photo)
+       ========================================================================== -->
   <section class="skills-section" id="skills">
     <div class="skills-container">
       <!-- Section Header -->
-      <div style="text-align: center;">
-        <span class="section-badge">TECHNICAL ARSENAL</span>
-        <h2 class="section-title font-display">MY SKILLS</h2>
+      <div class="skills-header-center">
+        <span class="section-badge">// TECHNICAL ARSENAL</span>
+        <h2 class="section-title font-display">SKILLS &amp; CAPABILITIES</h2>
+        <p class="skills-subtitle">
+          Specialized in Machine Learning, Natural Language Processing, Data Science, and modern software development.
+        </p>
         <div class="section-divider"></div>
       </div>
 
-      <div class="skills-layout-grid">
-        <!-- Left Visual Portrait Card (SreeStats Style) -->
-        <div class="skills-left-card card-glow">
-          <img src="assets/profile.jpg" alt="Kalp Shah - AI & Machine Learning Developer" class="skills-portrait-img" />
-          <div class="skills-portrait-overlay">
-            <span class="skills-portrait-badge">// TECHNICAL ARSENAL</span>
-            <h4 class="skills-portrait-name">Kalp Shah</h4>
+      <!-- Interactive Category Filter Tabs -->
+      <div class="skills-filter-nav" id="skills-filter-tabs">
+        <button class="skill-filter-btn active" data-filter="all">All Stack</button>
+        <button class="skill-filter-btn" data-filter="ai-ml">AI &amp; Machine Learning</button>
+        <button class="skill-filter-btn" data-filter="data-science">Data Science &amp; Analytics</button>
+        <button class="skill-filter-btn" data-filter="programming">Programming &amp; Core</button>
+        <button class="skill-filter-btn" data-filter="webdev">Web &amp; Databases</button>
+        <button class="skill-filter-btn" data-filter="tools">Tools &amp; Platforms</button>
+      </div>
+
+      <!-- Skills Cards Grid -->
+      <div class="skills-creative-grid" id="skills-grid">
+        <!-- Card 1: AI & Machine Learning -->
+        <div class="skill-creative-card card-glow" data-category="ai-ml">
+          <div class="skill-card-top">
+            <div class="skill-icon-wrap"><i class="fa-solid fa-brain"></i></div>
+            <span class="skill-category-tag">AI &amp; ML</span>
+          </div>
+          <h3 class="skill-group-title">Machine Learning &amp; AI</h3>
+          <p class="skill-group-desc">Building predictive classifiers, regression models, and ML evaluation pipelines.</p>
+          <div class="skill-tags-cloud">
+            <span class="skill-tag-pill">Python</span>
+            <span class="skill-tag-pill">Scikit-Learn</span>
+            <span class="skill-tag-pill">Machine Learning</span>
+            <span class="skill-tag-pill">LinearSVC &amp; Logistic Regression</span>
+            <span class="skill-tag-pill">Model Evaluation &amp; Accuracy</span>
+            <span class="skill-tag-pill">Prompt Engineering (Copilot)</span>
           </div>
         </div>
 
-        <!-- Right 2-Col Grid (4 Skill Boxes) -->
-        <div class="skills-right-cards">
-          <div class="skills-two-col">
-            <!-- Box 1: Machine Learning & NLP -->
-            <div class="skill-box-card card-glow">
-              <div class="skill-icon-wrap"><i class="fa-solid fa-brain"></i></div>
-              <h4 class="skill-card-title">Machine Learning &amp; NLP</h4>
-              <ul class="skill-check-list">
-                <li class="skill-check-item">
-                  <i class="fa-solid fa-circle-check check-icon"></i>
-                  <span>Machine Learning Algorithms</span>
-                </li>
-                <li class="skill-check-item">
-                  <i class="fa-solid fa-circle-check check-icon"></i>
-                  <span>Scikit-Learn</span>
-                </li>
-                <li class="skill-check-item">
-                  <i class="fa-solid fa-circle-check check-icon"></i>
-                  <span>TF-IDF Vectorization</span>
-                </li>
-                <li class="skill-check-item">
-                  <i class="fa-solid fa-circle-check check-icon"></i>
-                  <span>Natural Language Processing (NLP)</span>
-                </li>
-              </ul>
-            </div>
-
-            <!-- Box 2: Programming Languages -->
-            <div class="skill-box-card card-glow">
-              <div class="skill-icon-wrap"><i class="fa-solid fa-code"></i></div>
-              <h4 class="skill-card-title">Programming Languages</h4>
-              <ul class="skill-check-list">
-                <li class="skill-check-item">
-                  <i class="fa-solid fa-circle-check check-icon"></i>
-                  <span>Python</span>
-                </li>
-                <li class="skill-check-item">
-                  <i class="fa-solid fa-circle-check check-icon"></i>
-                  <span>C++ / C</span>
-                </li>
-                <li class="skill-check-item">
-                  <i class="fa-solid fa-circle-check check-icon"></i>
-                  <span>JavaScript</span>
-                </li>
-                <li class="skill-check-item">
-                  <i class="fa-solid fa-circle-check check-icon"></i>
-                  <span>Data Structures &amp; Algorithms (DSA)</span>
-                </li>
-              </ul>
-            </div>
-
-            <!-- Box 3: Data Science & Analytics -->
-            <div class="skill-box-card card-glow">
-              <div class="skill-icon-wrap"><i class="fa-solid fa-chart-pie"></i></div>
-              <h4 class="skill-card-title">Data Science &amp; Analytics</h4>
-              <ul class="skill-check-list">
-                <li class="skill-check-item">
-                  <i class="fa-solid fa-circle-check check-icon"></i>
-                  <span>Pandas &amp; NumPy</span>
-                </li>
-                <li class="skill-check-item">
-                  <i class="fa-solid fa-circle-check check-icon"></i>
-                  <span>Data Visualization (Matplotlib)</span>
-                </li>
-                <li class="skill-check-item">
-                  <i class="fa-solid fa-circle-check check-icon"></i>
-                  <span>Exploratory Data Analysis (EDA)</span>
-                </li>
-                <li class="skill-check-item">
-                  <i class="fa-solid fa-circle-check check-icon"></i>
-                  <span>MySQL &amp; Databases</span>
-                </li>
-              </ul>
-            </div>
-
-            <!-- Box 4: Tools & Deployment -->
-            <div class="skill-box-card card-glow">
-              <div class="skill-icon-wrap"><i class="fa-solid fa-layer-group"></i></div>
-              <h4 class="skill-card-title">Tools &amp; Deployment</h4>
-              <ul class="skill-check-list">
-                <li class="skill-check-item">
-                  <i class="fa-solid fa-circle-check check-icon"></i>
-                  <span>Git &amp; GitHub</span>
-                </li>
-                <li class="skill-check-item">
-                  <i class="fa-solid fa-circle-check check-icon"></i>
-                  <span>Vercel Deployment</span>
-                </li>
-                <li class="skill-check-item">
-                  <i class="fa-solid fa-circle-check check-icon"></i>
-                  <span>HTML5 &amp; CSS3</span>
-                </li>
-                <li class="skill-check-item">
-                  <i class="fa-solid fa-circle-check check-icon"></i>
-                  <span>VS Code &amp; Jupyter</span>
-                </li>
-              </ul>
-            </div>
+        <!-- Card 2: NLP & Text Processing -->
+        <div class="skill-creative-card card-glow" data-category="ai-ml">
+          <div class="skill-card-top">
+            <div class="skill-icon-wrap"><i class="fa-solid fa-envelope-open-text"></i></div>
+            <span class="skill-category-tag">NLP &amp; TEXT</span>
           </div>
+          <h3 class="skill-group-title">NLP &amp; Text Processing</h3>
+          <p class="skill-group-desc">Processing text data, extracting features, and training threat &amp; spam detectors.</p>
+          <div class="skill-tags-cloud">
+            <span class="skill-tag-pill">Natural Language Processing (NLP)</span>
+            <span class="skill-tag-pill">TF-IDF Vectorization</span>
+            <span class="skill-tag-pill">Text Preprocessing &amp; Regex</span>
+            <span class="skill-tag-pill">Spam &amp; Threat Classification</span>
+            <span class="skill-tag-pill">Tokenization &amp; Stopwords</span>
+            <span class="skill-tag-pill">Feature Extraction</span>
+          </div>
+        </div>
+
+        <!-- Card 3: Data Science & Analytics -->
+        <div class="skill-creative-card card-glow" data-category="data-science">
+          <div class="skill-card-top">
+            <div class="skill-icon-wrap"><i class="fa-solid fa-chart-pie"></i></div>
+            <span class="skill-category-tag">DATA SCIENCE</span>
+          </div>
+          <h3 class="skill-group-title">Data Science &amp; Analytics</h3>
+          <p class="skill-group-desc">Data wrangling, statistical analysis, and visual exploratory data exploration.</p>
+          <div class="skill-tags-cloud">
+            <span class="skill-tag-pill">Pandas</span>
+            <span class="skill-tag-pill">NumPy</span>
+            <span class="skill-tag-pill">Data Visualization (Matplotlib)</span>
+            <span class="skill-tag-pill">Exploratory Data Analysis (EDA)</span>
+            <span class="skill-tag-pill">Data Cleaning &amp; Preprocessing</span>
+            <span class="skill-tag-pill">Statistical Analysis</span>
+          </div>
+        </div>
+
+        <!-- Card 4: Programming & Core -->
+        <div class="skill-creative-card card-glow" data-category="programming">
+          <div class="skill-card-top">
+            <div class="skill-icon-wrap"><i class="fa-solid fa-code"></i></div>
+            <span class="skill-category-tag">CORE CS</span>
+          </div>
+          <h3 class="skill-group-title">Programming &amp; Core CS</h3>
+          <p class="skill-group-desc">Algorithms, object-oriented concepts, and clean problem solving fundamentals.</p>
+          <div class="skill-tags-cloud">
+            <span class="skill-tag-pill">Python</span>
+            <span class="skill-tag-pill">C++</span>
+            <span class="skill-tag-pill">C</span>
+            <span class="skill-tag-pill">Data Structures &amp; Algorithms (DSA)</span>
+            <span class="skill-tag-pill">JavaScript</span>
+            <span class="skill-tag-pill">Object-Oriented Programming (OOP)</span>
+          </div>
+        </div>
+
+        <!-- Card 5: Web & Databases -->
+        <div class="skill-creative-card card-glow" data-category="webdev">
+          <div class="skill-card-top">
+            <div class="skill-icon-wrap"><i class="fa-solid fa-database"></i></div>
+            <span class="skill-category-tag">WEB &amp; DB</span>
+          </div>
+          <h3 class="skill-group-title">Web &amp; Databases</h3>
+          <p class="skill-group-desc">Relational databases, responsive user interfaces, and full-stack integration.</p>
+          <div class="skill-tags-cloud">
+            <span class="skill-tag-pill">MySQL</span>
+            <span class="skill-tag-pill">HTML5 &amp; CSS3</span>
+            <span class="skill-tag-pill">JavaScript (ES6+)</span>
+            <span class="skill-tag-pill">PHP Backend</span>
+            <span class="skill-tag-pill">Responsive Web Design</span>
+            <span class="skill-tag-pill">Role-Based Authentication</span>
+          </div>
+        </div>
+
+        <!-- Card 6: Tools & Platforms -->
+        <div class="skill-creative-card card-glow" data-category="tools">
+          <div class="skill-card-top">
+            <div class="skill-icon-wrap"><i class="fa-solid fa-wrench"></i></div>
+            <span class="skill-category-tag">TOOLS</span>
+          </div>
+          <h3 class="skill-group-title">Tools &amp; Platforms</h3>
+          <p class="skill-group-desc">Development environments, version control, and cloud hosting workflows.</p>
+          <div class="skill-tags-cloud">
+            <span class="skill-tag-pill">Git</span>
+            <span class="skill-tag-pill">GitHub</span>
+            <span class="skill-tag-pill">GitHub Copilot</span>
+            <span class="skill-tag-pill">VS Code</span>
+            <span class="skill-tag-pill">Jupyter Notebook</span>
+            <span class="skill-tag-pill">MySQL Workbench</span>
+            <span class="skill-tag-pill">Vercel Deployment</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Creative Developer Infinity Marquee Strip -->
+      <div class="skills-marquee-container">
+        <div class="skills-marquee-track">
+          <div class="marquee-item"><i class="fa-brands fa-python text-red"></i> Python</div>
+          <div class="marquee-item"><i class="fa-solid fa-brain text-red"></i> Scikit-Learn</div>
+          <div class="marquee-item"><i class="fa-solid fa-envelope-open-text text-red"></i> NLP &amp; TF-IDF</div>
+          <div class="marquee-item"><i class="fa-solid fa-chart-pie text-red"></i> Pandas</div>
+          <div class="marquee-item"><i class="fa-solid fa-cube text-red"></i> NumPy</div>
+          <div class="marquee-item"><i class="fa-solid fa-database text-red"></i> MySQL</div>
+          <div class="marquee-item"><i class="fa-solid fa-code text-red"></i> C++</div>
+          <div class="marquee-item"><i class="fa-brands fa-git-alt text-red"></i> Git &amp; GitHub</div>
+          <div class="marquee-item"><i class="fa-solid fa-chart-line text-red"></i> Matplotlib</div>
+          <div class="marquee-item"><i class="fa-solid fa-cloud-arrow-up text-red"></i> Vercel</div>
+          <div class="marquee-item"><i class="fa-brands fa-js text-red"></i> JavaScript</div>
+          <!-- Duplicate for continuous loop -->
+          <div class="marquee-item"><i class="fa-brands fa-python text-red"></i> Python</div>
+          <div class="marquee-item"><i class="fa-solid fa-brain text-red"></i> Scikit-Learn</div>
+          <div class="marquee-item"><i class="fa-solid fa-envelope-open-text text-red"></i> NLP &amp; TF-IDF</div>
+          <div class="marquee-item"><i class="fa-solid fa-chart-pie text-red"></i> Pandas</div>
+          <div class="marquee-item"><i class="fa-solid fa-cube text-red"></i> NumPy</div>
+          <div class="marquee-item"><i class="fa-solid fa-database text-red"></i> MySQL</div>
+          <div class="marquee-item"><i class="fa-solid fa-code text-red"></i> C++</div>
+          <div class="marquee-item"><i class="fa-brands fa-git-alt text-red"></i> Git &amp; GitHub</div>
+          <div class="marquee-item"><i class="fa-solid fa-chart-line text-red"></i> Matplotlib</div>
+          <div class="marquee-item"><i class="fa-solid fa-cloud-arrow-up text-red"></i> Vercel</div>
+          <div class="marquee-item"><i class="fa-brands fa-js text-red"></i> JavaScript</div>
         </div>
       </div>
     </div>
